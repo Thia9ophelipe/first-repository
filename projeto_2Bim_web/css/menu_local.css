@@ -1,0 +1,31 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.navbar{
+    background-color: #a0d7eb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-include {
+    margin-right: 10px;
+}
+
+.nav-logout {
+    margin-left: auto;
+}

@@ -1,0 +1,20 @@
+.centralizar {
+    text-align: center;
+}
+.div_central {
+    margin-top: 40px;
+}
+.div_esquerda {
+    float: left;
+    width: 30%;
+    margin-top: 40px;
+}
+.div_direita {
+    float: right;
+    width: 60%;
+    margin-top: 40px;
+}
+#rodape {
+    clear: both;
+    margin-top: 40px;
+}

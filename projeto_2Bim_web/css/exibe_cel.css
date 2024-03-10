@@ -1,0 +1,37 @@
+.centralizar {
+    text-align: center;
+}
+
+.div_central {
+    margin-top: 40px;
+}
+
+.div_esquerda {
+    float: left;
+    width: 30%;
+    margin-top: 40px;
+}
+
+.div_direita {
+    float: right;
+    width: 70%;
+    margin-top: 60px;
+}
+
+#rodape {
+    clear: both;
+    margin-top: 40px;
+}
+
+.img-celular {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.info-celular {
+    text-align: left;
+    margin-top: 20px;
+}

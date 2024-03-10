@@ -1,0 +1,40 @@
+body {
+    font-family: 'PT Serif', serif;
+    
+}
+#principal {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#conteudo_especifico {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    margin-left: 100px;
+}
+#topo {
+    background-color: #f8f9fa;
+    padding: 20px;
+    width: 100%;
+}
+#rodape {
+    background-color: #f8f9fa;
+    padding: 20px;
+    width: 100%;
+}
+#texto_institucional {
+    text-align: center;
+}
+
+#h1{
+
+    margin-left: 250px;
+}
+
+#table-boot{
+    display: none;
+
+}

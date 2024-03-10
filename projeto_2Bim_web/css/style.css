@@ -1,0 +1,179 @@
+#principal {
+	margin: 50px;
+	font-family: arial;
+}
+
+
+#topo {
+	padding: 40px;
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 0px auto 20px auto;
+	grid-gap: 5px;
+	
+	background-color: black;
+	color: yellow;
+	justify-content: space-between;
+}
+
+
+
+#logo h1 {
+	
+	line-height: 0px;
+	word-spacing: 0px;
+	
+	
+}
+
+
+#logo h4 {
+	line-height: 0px;
+	word-spacing: 10px;
+}
+
+#area_restrita {
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	height: 138px;
+	width: 300px;
+	border: 1px solid blue;
+	position: absolute;
+	left: 150px;
+	top: 50px;
+}
+.titulo {
+	display: block;
+	text-align: center;
+	margin: 20px 0;
+	font-size: 24px;
+}
+
+
+/*div menu*/
+#menu {
+	padding: 0px;
+	display: flex;
+	grid-template-columns: auto auto;
+	grid-template-rows: 50px;
+	margin: 20px auto 0px auto;
+	grid-gap: 5px;
+	
+	background-color: blue;
+	color: yellow;
+	justify-content: center;
+	font-size: large;
+	text-decoration: none;
+
+}
+
+#foto {
+
+	margin: auto 500px auto 500px;
+	position: relative;
+	
+	height: 350px;
+
+	width: 800px;
+
+	background-image: url("foto_fundo.jpg");
+
+	background-position: left;
+
+	background-repeat: no-repeat;
+}
+
+
+
+/* div CONTEUDO_ESPECIFICO  */
+#conteudo_especifico {
+	padding: 5px;
+	display: block;
+	grid-template-columns: 50% 50%;
+	margin: 0px auto 5px auto;
+	grid-gap: 20px;
+    max-width: 2000px;
+}
+
+.div_esquerda {
+	margin: 0px auto auto 150px;
+}
+
+.div_direita {
+	margin: 15px 150px auto auto;
+}
+
+.div_central {
+	margin: auto 150px auto 150px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.div_logo_central {
+
+	margin: auto 150px auto 150px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	height: 500px;
+
+	width: 500px;
+
+	background-image: url("foto_fundo.jpg");
+
+	background-position: center;
+
+	background-repeat: no-repeat;
+}
+
+#h1 {
+    margin: 0px auto 5px auto;
+}
+
+.table {
+    max-width: 2000px;
+    margin: 0 auto 5px auto;
+}
+
+
+/* div RODAPE */
+#rodape {
+	padding: 0px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: 50px;
+	margin: 20px auto 0px auto;
+	grid-gap: 5px;
+	
+	background-color: blue;
+	color: white;
+	justify-content: space-between;
+}
+
+#rodape h6 {
+	line-height: 0px;
+	word-spacing: 0px;
+	margin: 12px auto 12px 12px;
+}
+
+
+.centralizar {
+	text-align: center;
+	padding: 20px 30px 20px 30px;
+}
+
+.direita {
+	text-align: right;
+}
+
+.esquerda {
+	text-align: left;
+}
+
+
+.borda {
+	border: solid red 2px;
+}
+
+
+    

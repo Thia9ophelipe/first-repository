@@ -1,0 +1,16 @@
+.centralizar {
+    text-align: center;
+}
+
+.div_central {
+    margin-top: 40px;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+#rodape {
+    clear: both;
+    margin-top: 40px;
+}
